@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="360" viewBox="0 0 480 360" role="img" aria-label="Computadora con código">
+<rect x="35" y="18" width="410" height="294" rx="26" fill="#d1ddf8"/>
+<rect x="75" y="52" width="330" height="226" rx="16" fill="#142b59"/>
+<rect x="95" y="82" width="290" height="174" rx="8" fill="#1d396f"/>
+<circle cx="112" cy="69" r="6" fill="#ff8a8a"/><circle cx="133" cy="69" r="6" fill="#f6d26b"/><circle cx="154" cy="69" r="6" fill="#7ee0b4"/>
+<path d="M193 135l-34 31 34 31" fill="none" stroke="#8cc5ff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M287 135l34 31-34 31" fill="none" stroke="#8cc5ff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M262 119l-39 92" fill="none" stroke="#7ee0b4" stroke-width="11" stroke-linecap="round"/>
+<rect x="201" y="278" width="78" height="28" rx="5" fill="#456bb8"/>
+<rect x="150" y="304" width="180" height="17" rx="8" fill="#7897d1"/>
+</svg>

@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Página personal de Esmerlin, estudiante de Ingeniería en Software."
+    />
+    <title>Mi página personal | Esmerlin</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="encabezado" id="inicio">
+      <div class="contenedor barra">
+        <a class="marca" href="#inicio">EM<span>.</span></a>
+        <nav aria-label="Navegación principal">
+          <ul class="menu">
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#intereses">Intereses</a></li>
+            <li><a href="#horario">Horario</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="contenedor hero-grid">
+          <div>
+            <p class="etiqueta">¡Hola! Bienvenido a mi página</p>
+            <h1>
+              Soy Esmerlin, <span>estudiante de Ingeniería en Software.</span>
+            </h1>
+            <p class="introduccion">
+              Me apasiona aprender cómo funciona la tecnología y crear
+              soluciones útiles mediante la programación.
+            </p>
+            <a class="boton" href="#sobre-mi">Conoce más sobre mí →</a>
+          </div>
+          <img
+            class="ilustracion"
+            src="assets/img/programacion.svg"
+            alt="Ilustración de una computadora con código de programación"
+          />
+        </div>
+      </section>
+
+      <div class="contenedor contenido">
+        <section id="sobre-mi" class="seccion">
+          <p class="etiqueta">01 / Presentación</p>
+          <h2>Sobre mí</h2>
+          <article class="panel">
+            <p>
+              Mi nombre es <strong>Esmerlin</strong>. Soy estudiante de
+              <b>Ingeniería en Software</b> en la Universidad Adventista
+              Dominicana (UNAD). Me interesa seguir creciendo en el mundo del
+              desarrollo de software y fortalecer mis conocimientos cada día.
+            </p>
+            <p>
+              Disfruto aprender sobre programación, bases de datos y desarrollo
+              web. Mi objetivo es convertir mis conocimientos en proyectos que
+              ayuden a otras personas.
+            </p>
+          </article>
+        </section>
+
+        <section id="intereses" class="seccion">
+          <p class="etiqueta">02 / Lo que me gusta</p>
+          <h2>Mis hobbies e intereses</h2>
+          <article class="panel">
+            <ul class="intereses">
+              <li>Aprender nuevos lenguajes de programación</li>
+              <li>Resolver problemas y desafíos de lógica</li>
+              <li>Jugar videojuegos en mi tiempo libre</li>
+              <li>Escuchar música</li>
+              <li>Seguir aprendiendo sobre tecnología</li>
+            </ul>
+          </article>
+        </section>
+
+        <section id="horario" class="seccion">
+          <p class="etiqueta">03 / Organización</p>
+          <h2>Mi horario de ejemplo</h2>
+          <article class="panel">
+            <p>
+              Una tabla sencilla para mostrar cómo puedo organizar algunas
+              actividades durante la semana.
+            </p>
+            <div class="tabla-contenedor">
+              <table>
+                <caption>
+                  Plan semanal de actividades (ilustrativo)
+                </caption>
+                <thead>
+                  <tr>
+                    <th scope="col">Día</th>
+                    <th scope="col">Actividad</th>
+                    <th scope="col">Horario</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Lunes</td>
+                    <td>Estudio de programación</td>
+                    <td>7:00 p. m.</td>
+                  </tr>
+                  <tr>
+                    <td>Miércoles</td>
+                    <td>Práctica de HTML y CSS</td>
+                    <td>7:00 p. m.</td>
+                  </tr>
+                  <tr>
+                    <td>Viernes</td>
+                    <td>Repaso de temas</td>
+                    <td>6:00 p. m.</td>
+                  </tr>
+                  <tr>
+                    <td>Domingo</td>
+                    <td>Organizar tareas</td>
+                    <td>4:00 p. m.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </article>
+        </section>
+
+        <section id="contacto" class="seccion">
+          <p class="etiqueta">04 / Conversemos</p>
+          <h2>Formulario de contacto</h2>
+          <article class="panel">
+            <!-- Formulario demostrativo: no envía datos a un servidor. -->
+            <form action="#contacto" method="get">
+              <div class="campo">
+                <label for="nombre">Nombre</label>
+                <input
+                  id="nombre"
+                  name="nombre"
+                  type="text"
+                  placeholder="Escribe tu nombre"
+                  required
+                />
+              </div>
+              <div class="campo">
+                <label for="correo">Correo electrónico</label>
+                <input
+                  id="correo"
+                  name="correo"
+                  type="email"
+                  placeholder="ejemplo@correo.com"
+                  required
+                />
+              </div>
+              <div class="campo">
+                <label for="mensaje">Mensaje</label>
+                <textarea
+                  id="mensaje"
+                  name="mensaje"
+                  rows="5"
+                  placeholder="Escribe un mensaje..."
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="boton">Enviar formulario</button>
+              <p class="nota"></p>
+            </form>
+          </article>
+        </section>
+      </div>
+    </main>
+
+    <footer class="pie">
+      <div class="contenedor">
+        <p>&copy; 2026 Esmerlin. Proyecto de Introducción al Desarrollo Web.</p>
+        <a href="#inicio">Volver arriba ↑</a>
+      </div>
+    </footer>
+  </body>
+</html>
